@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AppMétéo</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="headerBar">
+        <img id="soleil" src="./assets/meteo.png" />
+        <div id="title">AppMétéOo</div>
+        <div id="hour"></div>
+      </div>
+    </header>
+
+    <main>
+
+      <!--LEFT COLUMN-->
+      <div id="left_column">    
+        <div id="arrowUp">➤</div>
+          <div class="weather-info-container">
+            <div id="tomorrow" class="weather-info">
+              <p id="date2" class="date"></p>
+              <article id="temp2" class="temp">Temp</article>
+              <article id="imgMeteo2" class="img"><img /></article>
+              <article id="desc2" class="desc">Vitesse du vent</article>
+            </div>
+            <div id="day3" class="weather-info">
+              <p id="date3" class="date"></p>
+              <article id="temp3" class="temp">Temp</article>
+              <article id="imgMeteo3" class="img"><img /></article>
+              <article id="desc3" class="desc">Vitesse du vent</article>
+            </div>
+            <div id="day4" class="weather-info">
+              <p id="date4" class="date"></p>
+              <article id="temp4" class="temp">Temp</article>
+              <article id="imgMeteo4" class="img"><img /></article>
+              <article id="desc4" class="desc">Vitesse du vent</article>
+            </div>
+            <div id="day5" class="weather-info">
+              <p id="date5" class="date"></p>
+              <article id="temp5" class="temp">Temp</article>
+              <article id="imgMeteo5" class="img"><img /></article>
+              <article id="desc5" class="desc">Vitesse du vent</article>
+            </div>
+          </div>
+        <div id="arrowDown">➤</div>
+      </div>
+
+      <!--MAIN SQUARE-->
+      <div id="main_square">
+        <div id="main_square_container">
+
+          <div id="main_square_headBar">
+            <div id="date"></div>
+            <div id="search">
+              <input type="text" id="search_input" placeholder="Ville" />
+            </div>
+          </div>
+
+          <div id="main_square_body">
+
+            <div id="info">
+              <article id="name"><p></p></article>
+		          <article id="temp"><p></p></article>
+              <article id="imgMeteo"><img /></article>
+              <article id="desc"><p>desc</p></article>
+            </div>
+
+            <div id="slider_container">
+              <div id="arrowRight">➤</div>
+              <div id="slider">
+                <article id="now">
+                  <p></p>
+                  <img />
+                  <p></p>
+                </article>
+                <article class="item">
+                  <p></p>
+                  <img />
+                  <p></p>
+                </article>
+                <article class="item">
+                  <p></p>
+                  <img />
+                  <p></p>
+                </article>
+                <article class="item">
+                  <p></p>
+                  <img />
+                  <p></p>
+                </article>
+                <article class="item">
+                  <p></p>
+                  <img />
+                  <p></p>
+                </article>
+                <article class="item">
+                  <p></p>
+                  <img />
+                  <p></p>
+                </article>
+                <article class="item">
+                  <p></p>
+                  <img />
+                  <p></p>
+                </article>
+                <article class="item">
+                  <p></p>
+                  <img />
+                  <p></p>
+                </article>
+                <article class="item">
+                  <p></p>
+                  <img />
+                  <p></p>
+                </article>
+                <article class="item">
+                  <p></p>
+                  <img />
+                  <p></p>
+                </article>
+              </div>
+              <div id="arrowLeft">➤</div>   
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+<!-- FOOTER -->
+    <footer>
+      <div id="footer_box">
+          <div id="pre_footer">
+            <a href="https://www.flaticon.com/" target="_blank">
+              <img src="./assets/flaticon.png" class="icon" alt="flaticon">
+            </a>
+            <a href="https://openweathermap.org//" target="_blank">
+              <img src="./assets/openWeather.png" id="iconOpenWeather" alt="flaticon">
+            </a>
+          </div>
+          <div id="legal">
+            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.©
+            </p>
+          </div>
+          <div id="icon_box">
+            <a href="https://portfolio-guillaume-idmond.web.app/" target="_blank">
+            <img src="./assets/www.png" class="icon" alt="Portfolio">
+            </a>
+            <a href="https://www.linkedin.com/in/guillaume-idmond-854b1a262/" target="_blank">
+            <img src="./assets/linkedin.png" class="icon" alt="Linkedin">
+          </a>
+            <a href="https://github.com/GuillaumeIDMOND" target="_blank">
+            <img src="./assets/github.png" class="icon" alt="GitHub">
+          </a>
+          </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="meteo.js"></script>
+  </body>
+</html>
