@@ -8,13 +8,18 @@
                 Application Saas réalisées lors de ma formation Développeur Web & Web Mobile en JavaScript.
     Elle affiche les prévisions météorologiques actuelles, ainsi que les prévisions pour les prochaines heures et les prochains jours. 
 
+=> public
+    => Assets
+    - index.html
+    - style.css
+    - meteo.js
 
 Outils:
 
     - API Openweather   (https://openweathermap.org/)
     - Flaticon          (https://www.flaticon.com/)
 
-Fonctions:
+Principales fonctions:
 
     - dateAndHour() :
 
